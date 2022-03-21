@@ -3,11 +3,81 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Concert+One&family=Roboto:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Write your markup here -->
+     
+      <h1>Change Calculator</h1>
+      <input type="number" id="amount-due" placeholder="Amount due">
+      <input type="number" id="amount-received" placeholder="Amount received">
+      <button id="calculate-change" type="button" class="btn btn-primary">Calculate!</button>
 
+      <p id="total-change">Total change</p>
+      <p id="dollars-output" hidden></p>
+
+      <div class="row">
+        <div class="column-1-5">
+          <p id="twenty-output">0</p>
+          
+          <img class="dollar-img" src="https://cdn2.picryl.com/photo/2021/01/27/us-dollar20-series-1996-obverse-572466-1024.jpg" alt="Twenty dollar bill">
+
+        </div>
+
+        <div class="column-1-5">
+          <p id="ten-output">0</p>
+          
+          <img class="dollar-img" src="https://shhshomeandschool.files.wordpress.com/2014/09/9129f-hamilton_ten_dollar_bill.jpg" alt="Ten dollar bill">
+        </div>
+
+        <div class="column-1-5">
+          <p id="five-output">0</p>
+          
+          <img class="dollar-img" src="https://cdn.pixabay.com/photo/2016/01/22/20/07/dollar-1156527_1280.jpg" alt="Five dollar bill">
+        </div>
+
+        <div class="column-1-5">
+          <p id="two-output">0</p>
+          
+          <img class="dollar-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/US_%242_bill_obverse_series_2003_A.jpg/400px-US_%242_bill_obverse_series_2003_A.jpg" alt="Two dollar bill">
+        </div>
+
+        <div class="column-1-5">
+          <p id="one-output">0</p>
+
+          <img class="dollar-img" src="https://live.staticflickr.com/4704/25691533997_e6ab11e6d4_b.jpg" alt="One dollar bill">
+        </div>
+      </div>
+
+      <div class="row"> 
+        <div class="column-1-4">
+          <p id="quarters-output">0</p>
+          
+          <img class="coin-img" src="https://thumbs.dreamstime.com/b/shinny-quarter-dollar-coin-united-states-america-shinny-quarter-dollar-coin-united-states-america-usa-isolated-142294212.jpg" alt="Quarter">
+        </div>
+
+        <div class="column-1-4">
+          <p id="dimes-output">0</p>
+          
+          <img class="coin-img" src="https://thumbs.dreamstime.com/b/american-one-dime-coin-cents-isolated-black-background-closeup-american-one-dime-coin-cents-isolated-black-background-103958589.jpg" alt="Dime">
+        </div>
+
+        <div class="column-1-4">
+          <p id="nickels-output">0</p>
+          
+          <img class="coin-img" src="https://thumbs.dreamstime.com/b/d-jefferson-nickel-isolated-black-background-201041489.jpg" alt="Nickel">
+        </div>
+
+        <div class="column-1-4">
+          <p id="pennies-output">0</p>
+          
+          <img class="coin-img" src="https://thumbs.dreamstime.com/b/american-lincoln-penny-coin-black-background-close-up-image-one-cent-93778579.jpg" alt="Penny">
+        </div>
+      </div>
+
+   
     <!-- Don't forget to add your <script> tag here -->
-
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
