@@ -143,14 +143,21 @@ input[type=number] {
 =======================================
 */
 .dollar-img {
-  width: 250px;
+  width: 90%;
   height: 125px;
   margin: 0;
   padding: 20px 0 0 0;
 }
 
 .coin-img {
-  width: 220px;
+  width: 90%;
+  height: 150px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.coin-img-1 {
+  width: 70%;
   height: 150px;
   margin: 0;
   padding: 0 10px;
